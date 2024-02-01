@@ -6,7 +6,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
   background-color: black;
   color: white;
 }
@@ -43,26 +43,27 @@ body{
 }
 
 .heading img {
-    width: 27px;
+  width: 27px;
 }
 
-.library{
-  min-height: 80vh;
+.library {
+  min-height: 70vh;
   position: relative;
 }
 
 .footer {
-    display: inline-flex;
-    font-size: 10px;
-    gap: 13px;
-    position: absolute;
-    bottom: 0;
+  display: inline-flex;
+  font-size: 10px;
+  gap: 13px;
+  position: absolute;
+  bottom: 0;
+  padding: 13px 0px ;
 }
-.footer a{
-    color: grey;
+.footer a {
+  color: grey;
 }
 
-.right{
+.right {
   margin: 16px 0px;
 }
 .header {
@@ -71,6 +72,49 @@ body{
   background-color: rgb(34, 34, 34);
 }
 
-.header > *{
+.header > * {
   padding: 20px;
+}
+
+.spotifyPlaylist {
+  padding: 16px;
+}
+
+.cardcont {
+  margin: 26px;
+  display: flex;
+  gap: 49px;
+  flex-wrap: wrap;
+}
+
+.spotifyPlaylist .card {
+  /* border: 1px solid red; */
+  width: 199px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #161616;
+  position: relative;
+}
+
+.card > * {
+  padding-top: 10px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.play {
+  width: 28px;
+  height: 28px;
+  background-color: #1fdf64;
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 180px;
+  right: 15px;
 }
