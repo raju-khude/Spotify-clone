@@ -85,6 +85,8 @@ body {
   display: flex;
   gap: 49px;
   flex-wrap: wrap;
+  max-height: 70vh;
+  overflow-y: scroll;
 }
 
 .spotifyPlaylist .card {
@@ -118,3 +120,5 @@ body {
   top: 180px;
   right: 15px;
 }
+
+
