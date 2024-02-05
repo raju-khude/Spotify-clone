@@ -1,1 +1,2 @@
-console.log("Let's write JavaScript")
+console.log("Let's write JavaScript");
+
